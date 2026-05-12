@@ -1,0 +1,20 @@
+nome = input("qual seu nome")
+if len (nome) < 6:
+    print("que nome legal e curto")
+else: 
+    print("que nome longo, não gostei")
+idade = int(input("qual sua idade"))
+if idade >= 18:
+    print("você é de maior!")
+else:
+    print("Você é de menor!, betinha")
+pergunta = (input("Sua mãe está solteira?"))
+if pergunta == "sim":
+    print("joga ela no meu teclado, vou mostrar minha barra de espaço para ela.")
+else:
+    print("suave não tenho ciumes")
+time = (input("que time você torce"))
+if (time) == "flamengo":
+    print("GAY")
+else:
+    print("mehor que são paulo")
